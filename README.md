@@ -10,7 +10,7 @@
 - [**Babel**](https://babeljs.io)
 - [**JSHint**](http://jshint.com) 
 
-# Using this repository
+# Using this repository in another/your repository
 This repo is usually included as a subtree in other repositories. Follow the following steps to integrate/use it properly.
 
 ### Integrating the repository as a subtree in a new project or project that wasn't using it
