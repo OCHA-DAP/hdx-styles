@@ -1,5 +1,3 @@
-@import "../base/variables";
-
 .hdx-warning {
     position: absolute;
     bottom: 0;
@@ -7,34 +5,29 @@
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: @lightRedColor;
+    background-color: #F2645A;
     z-index: 20;
 
     .hdx-warning-text {
         width: 1170px;
         margin-left: auto;
         margin-right: auto;
-        color: @whiteColor;
-        text-decoration: underline;
 
         .light-text{
             font-family: "Gotham-Light", sans-serif;
-        }
-
-        .hdx-warning-text-important {
-            font-family: "Gotham-Bold", sans-serif;
-            font-size: 16px;
-            color: inherit;
+            color: #FFFFFF;
         }
     }
 
-    &.hdx-announcement {
-        background-color: @whiteColor;
-        .hdx-warning-text {
-            color: @blueColor;
-        }
+    .hdx-warning-text a {
+        font-family: "Gotham-Light", sans-serif;
+        font-size: 16px;
+        color: #FFFFFF;
     }
 
+}
+.hdx-warning-text .hdx-warning-text-important {
+    font-family: 'Gotham-Bold', sans-serif;
 }
 
 @media (max-width: 767px) {
